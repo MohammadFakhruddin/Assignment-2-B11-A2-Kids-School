@@ -125,8 +125,9 @@ main
     object-fit: cover;
 
 }
-.curriculum-container {
-    max-width: 100%;
+.standard-section {
+    max-width: 90%;
+    margin: 0 auto;
     padding-top: 60px ;
     padding-bottom: 60px;
 }
@@ -208,5 +209,47 @@ main
     font-weight: bold;
 
 }
+
+.arrow-btn {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.left-arrow-btn{
+    background-color: #FEA301;
+    border-radius: 50px;
+    width: 30px;
+    padding: 10px;
+
+}
+
+.left-arrow svg {
+    color: white;
+    max-width: 40px;
+    height: 25px;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+.right-arrow-btn{
+    background-color: #FEA301;
+    border-radius: 50px;
+    width: 30px;
+    padding: 10px;
+
+}
+.right-arrow svg {
+    color: white;
+    max-width: 40px;
+    height: 25px;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+
+
+
 
 
