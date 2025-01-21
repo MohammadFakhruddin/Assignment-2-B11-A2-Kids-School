@@ -6,10 +6,207 @@
     font-weight: 400;
     font-style: normal;
   }
-
+  
+/* Shared Styles */
 .display-flex{
     display: flex;
+    
 }
-.nav-item a{
-    text-decoration: none;   
+
+/* Navbar related styles */
+
+nav {
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+    font-size: 1rem;
+
 }
+.nav a{
+    text-decoration: none;
+    margin-right: 20px;  
+}
+.nav-links{
+    gap: 10px;
+}
+
+.nav-links .menu-1{
+    color: #FEA301;
+
+}
+.nav-links .menu-2{
+    color:rgba(1, 172, 253, 1);
+
+}
+.nav-links .menu-3{
+    color: rgba(5, 212, 223, 1);
+
+}
+.nav-links .menu-4{
+    color: rgba(93, 88, 239, 1);
+
+}
+li{
+    list-style-type: none;
+}
+.secondary-buttun{
+    color: white;
+    background-color: rgba(254, 163, 1, 1);
+    padding: 10px 60px;
+    border: none;
+    border-radius: 12px;
+    font-weight: 500;
+    font-size: 1.25rem;
+
+}
+/* Header Styles */
+
+header {
+    max-width: 90%;
+    margin-left: auto ;
+    margin-right: auto;
+    box-sizing: border-box;
+
+}
+
+.hero-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+}
+
+.hero-text-area{
+    width: 640px;
+
+}
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+.yellow-title {
+    color: rgba(254, 163, 1, 1);
+}
+.blue-title {
+    color: rgba(1, 172, 253, 1);
+}
+
+.hero-text {
+    font-size:1rem;
+    font-weight: 400;
+
+}
+
+.primary-button {
+    color: white;
+    background-color: rgba(17, 17, 17, 1);
+    padding: 10px 60px;
+    border: none;
+    border-radius: 12px;
+    font-weight: 500;
+    font-size: 1.25rem;
+
+
+}
+
+.hero-image-area img{
+    max-width: 100%;
+    height: auto;
+
+}
+
+/* main start */
+main
+{
+    background-image: url(assets/bg.png);
+    background-repeat: repeat-y;
+    background-position: center top;
+    object-fit: cover;
+
+}
+.curriculum-container {
+    max-width: 100%;
+    padding-top: 60px ;
+    padding-bottom: 60px;
+}
+
+.section-title {
+    font-size: 2rem;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+
+}
+
+.standard-text{
+    font-size:1rem;
+    color: rgba(128, 128, 128, 1);
+    line-height: 20px;
+
+}
+.standard-parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    
+}
+.standard-child-1{
+    padding: 50px;
+    background: linear-gradient(180deg, rgba(222, 245, 255, 1) 10%, white 90%);
+    box-shadow: 0 0 28.3 .94 rgba(0, 0, 0, 0.05);
+    border-radius: 18px;
+    border: 1px solid rgba(222, 245, 255, 1);
+    text-align: center;
+
+  
+}
+.standard-child-1st-btn {
+    color: rgba(100, 200, 255, 1);
+    border: none;
+    background-color: transparent;
+    font-size: 12px;
+    font-weight: bold;
+
+}
+
+.standard-child-2{
+    padding: 50px;
+    background: linear-gradient(180deg, rgba(255, 244, 220, 1) 10%, white 90%);
+    box-shadow: 0 0 28.3 .94 rgba(0, 0, 0, 0.05);
+    border-radius: 18px;
+    border: 1px solid rgba(255, 244, 220, 1);
+    text-align: center;
+
+}
+
+.standard-child-2nd-btn{
+    color: rgba(240, 170, 0, 1);
+    border: none;
+    background-color: transparent;
+    font-size: 12px;
+    font-weight: bold;
+
+}
+
+.standard-child-3{
+    padding: 50px;
+    background: linear-gradient(180deg, rgba(242, 232, 255, 1) 10%, white 90%);
+    box-shadow: 0 0 28.3 .94 rgba(0, 0, 0, 0.05);
+    border-radius: 18px;
+    border: 1px solid rgba(242, 232, 255, 1) ;
+    text-align: center;
+
+}
+
+.standard-child-3rd-btn{
+    color: rgba(135, 0, 255, 1);
+    border: none;
+    background-color: transparent;
+    font-size: 12px;
+    font-weight: bold;
+
+}
+
+
