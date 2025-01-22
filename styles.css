@@ -526,7 +526,7 @@ footer {
         border: none;
         border-radius: 12px;
         color: white;
-        padding: 6px;
+        padding: 6px 24px;
         font-weight: 500;
     }
     h1 {
