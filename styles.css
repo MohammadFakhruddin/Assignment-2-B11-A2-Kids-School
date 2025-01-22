@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
-/* .raleway-font> {
+.raleway-font {
     font-family: "Raleway", serif;
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
-  } */
+  }
 .quicksand-font {
     font-family: "Quicksand", serif;
     font-optical-sizing: auto;
@@ -28,10 +28,14 @@ body{
 /* Navbar related styles */
 
 nav {
+    padding-top:10px ;
     justify-content: space-between;
     align-items: center;
     font-weight: 500;
     font-size: 1rem;
+}
+.logo{
+    margin-left: -10px;
 }
 /* Responsive Navbar Style */
 @media screen and (max-width: 576px) {
@@ -179,7 +183,7 @@ h1 {
 main
 {
     background-image: url(assets/bg.png);
-    background-repeat: repeat-y;
+    background-repeat: no-repeat;
     background-position: center top;
     object-fit: cover;
 
@@ -454,6 +458,9 @@ footer {
     width: 350px;
 
 }
+.footer-logo{
+    margin-left: -10px;
+}
 
 .footer-nav-menu h3{
     color: white;
@@ -484,11 +491,8 @@ footer {
     width: 100%;
 } 
 .bonus-part{
-    margin-top: 80px;
-    font-weight: 600;
-    font-size: 1.5rem;
-    background-color: #000000;
-    color: darkgray;
+    font-weight: 500;
+    font-size: 1rem;
 }
 /* Responsive Styles */
 
@@ -523,7 +527,7 @@ footer {
 /* Standard Parent Style */
     .standard-parent{
         flex-direction: column;
-        padding: 0 15px;
+        padding: 0 5px;
     }
     .standard-section{
         padding: 50px 0;
@@ -543,26 +547,28 @@ footer {
         width: 450px;
         height: 750px;
     }
-    .footer-logo img{
+    /* .footer-logo img{
         margin-left: -10px;
 
-    }
+    } */
 /* Our Stories Section Style  */
     .child-card{
         width: 100%;
         gap: 10px;
     }
     .child-card-1{
-        border-radius: 5px;
+        border-radius: 10px;
     }
     .child-card-1 img {
-        border-radius: 5px 5px 0 0;
+        border-radius: 10px 10px 0 0;
     }
     .child-card-1 div{
-        padding: 5px;
+        padding: 13px;
     }
     .child-card-1 div h4 {
-        font-size: 6px;
+        font-size: 10px;
+        line-height: 20px;
+
     }
     .child-card-1 div button{
         padding: 5px 10px;
@@ -580,7 +586,10 @@ footer {
         position: absolute;
     }
     .parent-stories{
-        padding: 20px 0;
+        padding: 20px 5px;
+    }
+    .bonus-part{
+        margin-bottom: 50px;
     }
 }
 
